@@ -1,4 +1,5 @@
 @extends('app')
+
 @section('content')
 <div class="container" ng-app="todoApp" ng-controller="todoController">
 	<h1>TodoApp index view</h1>
@@ -22,3 +23,5 @@
 		</div>
 	</div>
 </div>
+
+@stop
