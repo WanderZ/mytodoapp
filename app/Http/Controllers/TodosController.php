@@ -15,8 +15,9 @@ class TodosController extends Controller
 	 */
 	public function index() {
  
-		$todos = Todo::all();
-		return $todos;
+		// $todos = Todo::all();
+		// return $todos;
+		return view('TodoApp/index');
 	}
  
 	/**
